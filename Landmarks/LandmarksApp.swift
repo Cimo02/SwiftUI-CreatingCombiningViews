@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct LandmarksApp: App {
+    // modelData must be initialized as a @StateObject once in the app
     @StateObject private var modelData = ModelData()
     
     var body: some Scene {
